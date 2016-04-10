@@ -1,0 +1,663 @@
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+	.home {
+		max-height: 65em;
+	}
+	
+	.home .myNameHeader {
+		font-size: 70px;
+	}
+	
+	.home h3 {
+		font-size: 35px;
+	}
+	
+	.profile-pic img {
+		height: 50em;
+		width: auto;
+	}
+	
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color:#7e878f;
+    background-color:#FFFFFF;
+    font-weight:300;
+}
+    
+.home {
+    background-image:url(https://peterfeytser.files.wordpress.com/2015/07/20_1.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+	max-height: 800px;
+}
+
+.home .myNameHeader {
+    font-family:sans-serif;
+    font-weight: bold;
+    text-align:center;
+    padding-top:125px;
+    color:white;
+    font-size:80px;
+	margin:0px;
+}
+
+.home h3 {
+    font-family:sans-serif;
+    font-weight: bold;
+    text-align:center;
+    color:white;
+    font-size:40px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+div .share-buttons{
+  padding: 0;
+	line-height: 0px;
+	margin-right:auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.share-buttons p {
+	display: inline-block;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.share-buttons .facebook-top:hover {
+	background-color: #3b5998;
+}
+
+.share-buttons .twitter-top:hover {
+	background-color: #4099FF;
+}
+
+.share-buttons .linkedin-top:hover {
+	background-color: #007bb5;
+}
+
+.share-buttons .google-plus-top:hover {
+	background-color: #dd4b39;
+}
+
+.share-buttons .tumblr-top:hover {
+	background-color: #32506d;
+}
+
+.share-buttons .email-top:hover {
+	background-color: #000000;
+}
+
+div.share-buttons li{
+  display: inline-block;
+    padding:0;
+	line-height: 20px;
+}
+
+.profile-pic {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	position: relative;
+	text-align: center;
+}
+
+.profile-pic img {
+	border: solid 10px #eff0f4;
+	border-radius: 50%;
+	margin-top: -50px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	max-width: 100%;
+}
+
+.section-title {
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color:#2c3d4f;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: auto;
+}
+
+.About-me {
+    padding:0px 0;
+    position:relative;
+}
+
+.About-me .container {
+    width:970px;
+    position:relative;
+}
+
+.About-me h3 {
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color:#2c3d4f;
+    text-align:center;
+    margin-bottom: auto;
+}
+
+.border {
+    background-color:#F54F36;
+    display: block;
+    margin: 40px auto;
+    width: 60px;
+    height: 2px;
+}
+
+.About-me p {
+    font-family:sans-serif;
+    font-size:16px;
+    color:#7e878f;
+}
+
+.About-me p span {
+    font-weight: bold;
+}
+
+.download-button {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 75px;
+	margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+}
+
+.download-btn {
+    display:block;
+    background-color:#F54F36;
+    border-radius: 5px;
+    border: 2px solid #F54F36;
+    display:inline-block;
+    text-align:center;
+    vertical-align: middle;
+    padding: 15px 20px;
+	font-size: 16px;
+}
+
+.download-button a {
+	text-decoration: none;
+}
+
+.download-btn span {
+    color:#FFFFFF;
+    font-weight:bold;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.my-resume {
+    padding:150px 0;
+    position:relative;
+    background-color: #f0f2f7;
+}
+
+.timeline {
+	height: 100%
+}
+
+.timeline-post-content-holder:hover {
+	background: #fdfdfe;
+} 
+
+.my-resume .container {
+    width:970px;
+}
+
+.my-resume h3 {
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color:#2c3d4f;
+    text-align:center;
+    margin-bottom: auto;
+	padding-bottom: 0px;
+}
+
+.timeline-category {
+    text-align:center;
+	z-index: 8;
+}
+
+.col-md-12 {
+	position: relative;
+	z-index: 10;
+}
+
+.timeline-category-container {
+    background-color:#dbdde5;
+    border-radius: 5px;
+    border: 2px solid #dbdde5;
+    display:inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+	z-index: 9;
+	text-decoration: none;
+}
+
+.timeline-category-container span {
+    color:#2c3d4f;
+    font-size:36px;
+    font-weight:bold;
+	text-decoration: none;
+}
+
+/*
+.timeline-category-container:hover span {
+	color: #e74b3b;
+}
+*/
+
+.timeline-category-icon {
+    margin-top: 20px;
+}
+
+.iconspace {
+    position:relative;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #e74b3b;
+    line-height: 40px;
+}
+
+.fa-folder-open {
+    vertical-align: middle;
+    color: white;
+    font-size: 30px;
+	margin-right: 50px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.timeline-post-left .timeline-post:first-child {
+  margin-top: 65px;
+}
+
+.timeline-post {
+    padding:10px;
+}
+
+.timeline-post-content-holder {
+    padding:15px;
+}
+
+.timeline-post-left .timeline-post .timeline-post-content-holder .timeline-post-icon {
+    position: absolute;
+    background-color: #ccd0db;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    margin-left: 422px;
+    z-index:6;
+    margin-top: 33px;
+}
+
+.timeline-post-title {
+    box-sizing: border-box;
+}
+
+.timeline-post-title-left,
+.timeline-post-subtitle-left {
+	text-align: right;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.timeline-post .timeline-post-title h4 {
+  color: #2c3e50;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.timeline-post .timeline-post-subtitle p {
+  color: #2c3e50;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.red-bullet {
+    color:#e74b3b;
+}
+
+.timeline-post .timeline-post-content {
+  color: #7d878f;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.timeline-post-right {
+  text-align: left;
+}
+
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+
+.timeline-post-right {
+  text-align: left;
+}
+
+.timeline-post {
+  padding: 10px;
+}
+
+.timeline-post-content-holder {
+  padding: 15px;
+}
+
+.timeline-post-right > .timeline-post > .timeline-post-content-holder > .timeline-post-icon {
+  position: absolute;
+  background-color: #ccd0db;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: -48px;
+  z-index: 6;
+  margin-top: 35px;
+}
+
+.timeline-post-right > .timeline-post:hover > .timeline-post-content-holder > .timeline-post-icon {
+	position: absolute;
+	background-color: #F54F36;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-left: -48px;
+	z-index: 6;
+	margin-top: 35px;
+}
+
+.timeline-post-left > .timeline-post:hover > .timeline-post-content-holder > .timeline-post-icon {
+    position: absolute;
+    background-color: #F54F36;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    margin-left: 422px;
+    z-index:6;
+    margin-top: 33px;
+}
+
+.timeline-post .timeline-post-ed-subtitle p {
+  color: #2c3e50;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.ed-minor {
+    font-style:italic;
+}
+
+.timeline-ed-icon {
+    margin-top: 23px;
+}
+
+.timeline::after {
+    content: "";
+	z-index: -1; 
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 49.8%;
+    width: 3px;
+    height: 100%;
+    background-color: #dbdde5;  
+}
+
+.iconspace {
+    position:relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+	z-index: 10;
+}
+
+.iconspace i {
+	font-size: 18px;
+	position: relative;
+	color: #FFFFFF;
+	line-height: 40px;
+	z-index: 1;
+}
+
+.experience-category .iconspace {
+    background-color: #e74b3b;
+}
+
+.experience-category .iconspace i {
+    margin-left: 13px;
+	position: relative;
+}
+
+.edu-category .iconspace {
+	background-color: #1abb9b;
+}
+
+.timeline-bottom-icon {
+    margin-top: 270px;
+}
+
+.timeline-bottom-icon .iconspace {
+	background-color: #cbcfdb;
+}
+
+.timeline-bottom-icon .iconspace i {
+	color: #5f7183;
+	position: relative;
+}
+
+.languages {
+	background-image:url(https://peterfeytser.files.wordpress.com/2015/07/city-cars-road-houses-1-copy.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    max-width:100%;
+    max-height:780px;
+	padding-bottom: 100px;
+}
+
+.languages h3 {
+    font-family:sans-serif;
+    font-weight: bold;
+    text-align:center;
+	padding-top: 100px;
+    color:white;
+    font-size:60px;
+	margin-top: 0px;
+	margin-bottom: 80px;
+}
+
+.language-circles {
+	margin-bottom: 80px;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lang-container {
+	display: table-cell;
+	width: 16em;
+	text-align: center;
+	vertical-align: top;
+}
+
+.plain_white_circle {
+	background-color: #fff;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display:inline-block;
+	line-height: 150px;
+	text-align: center;
+}
+
+.plain_circle_inner_text {
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	color: #e74b3b;
+	text-align:center;
+	height: 150px;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+
+/* SKILLS */
+
+.skills h3 {
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color:#2c3d4f;
+    text-align:center;
+    margin-bottom: 80px;
+}
+
+.skills-circles {
+	text-align: center;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skills-container {
+	display: table-cell;
+	width: 16em;
+	text-align: center;
+	vertical-align: top;
+}
+
+.top_white_circle_bordered {
+	background-color: #fff;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display:inline-block;
+	border: 3px solid #e74b3b;
+	line-height: 150px;
+}
+
+.top_circle_inner_text {
+	color: #e74b3b;
+	text-align:center;
+	height: 150px;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: -5px;
+}
+
+.bottom_white_circle_bordered {
+	background-color: #fff;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display:inline-block;
+	border: 3px solid #e74b3b;
+	vertical-align: middle;
+	line-height: 150px;
+	margin-top: 60px;
+}
+
+.bottom_circle_inner_text {
+	color: #e74b3b;
+	text-align:center;
+	height: 150px;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: -5px;
+}
+
+.bottom-row {
+	padding-right: 90px;
+	padding-left: 90px;
+	margin-bottom: 100px;
+}
+
+.skills-container .skills-icon {
+	font-size: 30px;
+	margin-top: 62px;
+}
+
+.fa-database {
+	margin-left: 4px;
+}
+
+.fa-pencil {
+	margin-left: 30px;
+}
+
+/* FOOTER */
+
+.footer-section {
+	background-color: #222222;
+}
+
+.footer-section h3 {
+	font-family:sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color:#fff;
+    text-align:center;
+    margin-top:40px;
+	padding-top: 25px;
+	padding-bottom: 0px;
+}
+
+.footer-section h4 {
+	font-family:sans-serif;
+	font-size: 20px;
+	color:#fff;
+    text-align:center;
+	margin-top:20px;
+}
+
+.footer-social-media-icons {
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social {
+  display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
